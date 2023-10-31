@@ -12,4 +12,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## File structure
 
+File milestone_2 contains a list of words from which the computer randomly picks one to be used in the game.
+
+File milestone_3 contains the ask_for_input function which is used to ask the user to guess a letter.
+This file also checks whether the letter chosen is in the word or not.
+
 ## License Information
