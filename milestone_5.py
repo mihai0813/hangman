@@ -34,7 +34,6 @@ class Hangman:
         Checks if the guessed letter is in the word chosen by the game.
     ask_for_input()
         Asks the user to input a letter.
-
     """
 
     def __init__(self, word_list, num_lives=5):

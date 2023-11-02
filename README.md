@@ -7,7 +7,40 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 A class Hangman has been created to achieve this.
 
-    print(Hangman.__doc__)
+    """
+    A hangman game. The user is asked for a letter and the computer checks if it is in the word.
+    A random word is chosen from the word_list and the game starts with a default number of lives.
+
+    Parameters:
+    ----------
+    word_list: list
+        This is a list of words used in the game.
+    num_lives: int
+        Number of lives the player has.
+
+    Attributes:
+    ----------
+    word: str
+        The word to be guessed chosen randomly from the word_list.
+    word_guessed: list
+        List of letters from the word, a '_' is used fot letters that haven't been guessed.
+        After a letter is guessed correctly the '_' is replaced with the corresponding letter.
+    num_letters: int
+        The number of unique letters in the word which haven't been guessed yet by the player.
+    num_lives: int
+        The number of lives the player has.
+    word_list: list
+        This is a list of words used in the game.
+    list_of_guesses: list
+        This is a list of the letters which have been already tried by the player.
+    
+    Methods:
+    ----------
+    check_guess(guess)
+        Checks if the guessed letter is in the word chosen by the game.
+    ask_for_input()
+        Asks the user to input a letter.
+    """
 
 This project was built for the AiCore Data Analyst bootcamp in order to practice python programming skills.
 This project has given me the opportunity to better my understanding on builiding python classes and functions.
